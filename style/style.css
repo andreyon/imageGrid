@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.wrapper {
+  width: 1200px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.cell {
+  float: left;
+  outline: 10px solid #ffffff;
+  outline-offset: -10px;
+}
+
+.cell-600 {
+  width: 50%;
+}
+
+.cell-400,
+.cell-400-145 {
+  width: 33.3%;
+}
+
+.cell-300 {
+  width: 50%;
+}
+
+.cell-200-165 {
+  width: 33.3%;
+}
+
+.cell-200-195,
+.cell-200-145 {
+  width: 16.7%;
+}
